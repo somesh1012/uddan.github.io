@@ -1,0 +1,123 @@
+
+ *,html,body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+ }
+  
+ .download{
+    background-image: linear-gradient(
+        115deg
+        , rgb(191, 61, 69) 33.33%, rgb(215, 60, 70), 33.33%, rgb(215, 60, 70), 66.66%, rgb(212, 75, 84) 66.66%);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+ }
+
+  @media all and (max-width: 768px){
+        #btn-1{
+            margin-top: 22px;
+        }
+  }
+
+  .slick-carousel {
+    margin: 0 auto;
+    /* width: 1000px; */
+  }
+  
+  /* The width of each slide */
+  .slick-slide {
+    /* width: 350px; */
+  }
+  
+  /* Color of the arrows */
+  .slick-next::before, .slick-prev::before {
+    color: blue;
+  }
+  /* .video{
+     background: url('../image/download (5).png') repeat-x center center/cover;
+  } */
+  .counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
+   #counter{
+    background-image: linear-gradient(
+      115deg
+      , rgb(191, 61, 69) 33.33%, rgb(215, 60, 70), 33.33%, rgb(215, 60, 70), 66.66%, rgb(212, 75, 84) 66.66%);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+   }
+
+   .changebg:hover{
+      background: rgb(237, 247, 247);
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      transition: 0.5s;
+   }
+   .changebg-pink:hover{
+    background: rgb(248, 242, 247);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+   }
+   .changebg-violet:hover{
+    background: rgb(243, 233, 243);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+   }
+   
+   #home{
+      background: url('./image/download (10).jpg') no-repeat center center/cover;
+      height: 100vh;
+
+   }
+   .home-text{
+    
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   }
+
+   .border-2{
+   
+    border-color: rgb(129, 129, 129);
+    border-style: dashed;
+    border-width: 2px;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: 295px;
+    top: 120px;
+    z-index: 1;
+  }
+  .border-3{
+     
+    border-color: rgb(129, 129, 129);
+    border-style: dashed;
+    border-width: 2px;
+    height: 1px;
+    width: 160px;
+    position: absolute;
+    left: -80px;
+    top: 120px;
+    z-index: 1;
+  }
+
+  @media all and (max-width: 768px){
+    
+    .home-text-1{
+       font-size: 40px  !important;
+    }
+
+  }
+
+  @media all and (max-width: 1024px){
+    .border-2{
+      border: none;
+   }
+   .border-3{
+     border: none;
+   }
+  }
